@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Section</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+        }
+        .footer {
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            padding: 40px 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .footer-section {
+            margin: 10px;
+            min-width: 200px;
+            flex: 1;
+        }
+        .footer-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #ff69b4;
+        }
+        .footer-section p, .footer-section ul {
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-section ul li {
+            margin: 5px 0;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons a {
+            color: #ff69b4;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+        .newsletter {
+            display: flex;
+            align-items: center;
+            border: 1px solid #444;
+            border-radius: 30px;
+            padding: 5px 10px;
+            max-width: 400px;
+        }
+        .newsletter input[type="email"] {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+            background: none;
+            color: #fff;
+        }
+        .newsletter button {
+            background-color: #ff69b4;
+            border: none;
+            color: #fff;
+            border-radius: 50%;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .footer-section1{
+            display: flex ;
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer-sectiot1"></div>
+        <div class="footer-section">
+            <img src="Vector.png" alt="">
+            <h3>Stay in Touch</h3>
+            <h1>Newsletter</h1>
+            <div class="newsletter">
+                <input type="email" placeholder="Eg. janedoe@gmail.com">
+                <button><i class="fas fa-envelope"></i></button>
+
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Pay Us A Visit</h3>
+            <p>123 Meow Avenue<br>Kittyville, CA 90210<br>United States</p>
+            <h3>Give Us A Call</h3>
+            <p><i class="fas fa-phone"></i> (555) 555-5555</p>
+            <h3>Send Us A Message</h3>
+            <p><i class="fas fa-envelope"></i> info@neko-inn.com</p>
+        </div>
+        <div class="footer-section">
+            <h3>NekoInn Plans</h3>
+            <ul>
+                <li>Purr Ducal</li>
+                <li>Purr Royal</li>
+                <li>Purr Imperial</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Socialize With NekoInn</h3>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
